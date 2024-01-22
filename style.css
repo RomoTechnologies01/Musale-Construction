@@ -120,3 +120,190 @@ body {
 .c-button--gooey:hover .c-button__blobs div {
   transform: scale(1.4) translateY(0) translateZ(0);
 }
+
+
+/* Swiper Slider */
+.section_bg {
+  background: #f8f9fa;
+  display: block;
+}
+
+.footer_main {
+  padding: 10.5% 0px;
+}
+
+.home_slider_wraper {
+  height: 72vh;
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+}
+
+.home_slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section_wraper {
+  width: 100%;
+  display: inline-block;
+  padding: 30px 0;
+}
+
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+.news_tag_line_main {
+  width: 100%;
+  background: #DEDEDE;
+  display: inline-block;
+  position: absolute;
+  bottom: -1px;
+  z-index: 9;
+  left: 0;
+}
+
+.new_line {
+  font-family: 'gilroyextrabold';
+  padding: 15px 20px;
+  float: left;
+  width: 110px;
+}
+
+.new_line .orange {
+  line-height: 15px;
+}
+
+.news_border_left {
+  border-right: 3px solid #F17422;
+  padding-right: 15px;
+}
+
+.marquee_line {
+  font-family: 'Gilroy-Regular';
+  float: left;
+  width: calc(100% - 110px);
+  padding: 15px 0;
+}
+
+.containerWrapper {
+  width: 92.9%;
+  margin: 0 auto;
+  position: relative;
+}
+
+
+.home_section_padd_minus {
+  padding-top: 0px !important;
+}
+
+
+.home_slider_wraper {
+  height: 72vh;
+  overflow: hidden;
+  width: 100%;
+  display: inline-block;
+}
+
+.home_slider .swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home_slider_wraper .swiper-pagination {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -1.7%;
+  right: -34pxtext-align:center-webkit-transition:.3s opacity-o-transition:.3s opacity;
+  transition: .3s opacity-webkit-transform:translate3d(0, 0, 0)transform:translate3d(0, 0, 0)z-index:10;
+}
+
+.home_slider_wraper .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  display: block;
+  border-radius: 100%;
+  background: #000;
+  opacity: .2;
+  margin: 10px 0;
+}
+
+.home_slider_wraper .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #f17422;
+}
+
+
+.swiper-slide-active .cut_pagination:before {
+  width: 42px;
+  height: 42px;
+  background: #23283e;
+  opacity: 0.4;
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+
+.swiper-slide .bullets {
+  width: 90%;
+  height: 1px;
+  text-align: center;
+  top: 76%;
+  margin: 0px 5%;
+  background: #23283e;
+  position: absolute;
+}
+
+.swiper-slide-active .large_text {
+  font-size: 83px;
+}
+
+.timeLineBox .swiper-slide {
+  position: relative;
+  height: 90px;
+  width: 250px;
+  padding: 17px 0px 17px 70px;
+  background: #bfbfbf;
+  display: inline-block;
+  margin: 15px auto;
+  float: left;
+}
+
+.timeLineBox .swiper-slide:first-child {
+  padding: 17px 0px 17px 17px;
+}
+
+.timeLineBox .swiper-slide:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  margin-top: 0;
+  right: -96px;
+  border: solid 45px transparent;
+  border-left-color: #bfbfbf;
+  z-index: 2;
+}
+
+.timeLineBox .swiper-slide:before {
+  position: absolute;
+  content: "";
+  top: -12px;
+  margin-top: 0;
+  right: -120px;
+  border: solid 57px transparent;
+  border-left-color: #f8f9fa;
+  z-index: 1;
+}
+
+.timeLineBox .swiper-slide:last-child:after {
+  right: -90px;
+}

@@ -8,6 +8,7 @@
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link type="text/css" rel="stylesheet" href="swiper.min.css" />
   <link href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">
 
 </head>
@@ -40,8 +41,132 @@
 
     </div>
 
-    </div>
 
+    <section>
+      <div class="contentWrapper">
+        <div class="containerWrapper">
+          <div class="section_wraper home_section_padd_minus wow fadeIn" data-wow-delay="0.3s">
+            <div class="home_slider_wraper">
+              <div class="swiper-container home_slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="img/home_7.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_9.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_1.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_8.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_3.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_6.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_2.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_4.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_5.jpg" />
+
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="img/home_10.jpg" />
+
+                  </div>
+                </div>
+                <div class="news_tag_line_main">
+                  <div class="font_18 new_line">
+                    <span class="news_border_left"><a style="color: #000">NEWS</a></span>
+                  </div>
+                  <div class="marquee_line">
+                    <marquee class="font_16">
+                      "This is a sample website of Musale Construction which is under processing!" &nbsp;&nbsp; | &nbsp;&nbsp;
+                      "The Website is currently been developed By Rahul Dongre "
+                    </marquee>
+
+                  </div>
+                </div>
+              </div>
+              <!-- Add Pagination -->
+              <div class="swiper-pagination"></div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </div>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      var swiper = new Swiper('.swiper-container.home_slider', {
+        direction: 'vertical',
+        slidesPerView: 1,
+        mousewheel: false,
+        grabCursor: true,
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+        },
+        autoplay: {
+          delay: 5000,
+        },
+        loop: true,
+        speed: 1000
+      });
+      var swiper = new Swiper('.swiper-container.client_slider', {
+        slidesPerView: 5.7,
+        grabCursor: true,
+        breakpoints: {
+          // when window width is <= 320px
+          420: {
+            slidesPerView: 2,
+            spaceBetween: 10
+          }
+        },
+        grabCursor: true,
+        // 24-11-22 patelinfra new
+        autoplay: {
+          delay: 5000,
+        },
+        loop: true,
+        speed: 4000
+      });
+      var swiper = new Swiper('.swiper-container.milestone_slider', {
+        slidesPerView: 2.5,
+        centeredSlides: false,
+        //loop: true,
+        spaceBetween: 0,
+        grabCursor: true,
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+        breakpoints: {
+          480: {
+            slidesPerView: 1,
+            spaceBetween: 0,
+            centeredSlides: true,
+          }
+        }
+      });
+    })
+  </script>
 </body>
 
 </html>
