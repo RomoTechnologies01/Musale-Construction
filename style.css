@@ -13,7 +13,7 @@ body {
   width: 100%;
   /* Confused in bg */
   background: #D4E7C5;
-  background: #e9edde;
+  background: #ffffff;
 }
 
 
@@ -26,12 +26,14 @@ body {
 }
 
 #nav img {
-  height: 30vh;
+  height: 20vh;
+  border-radius: 45%;
 }
 
 #nav a {
   font-size: 25px;
   text-decoration: none;
+  color: #0a5f34;
 }
 
 #nav button {
@@ -51,7 +53,7 @@ body {
 #nav a {
   font-size: 25px;
   text-decoration: none;
-  color: #1f1e1d;
+  color: #0a0e95ac;
 }
 
 .c-button {
