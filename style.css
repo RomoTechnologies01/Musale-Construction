@@ -133,9 +133,9 @@ body {
 }
 
 .home_slider_wraper {
-  height: 72vh;
+  height: 22vh;
   overflow: hidden;
-  width: 100%;
+  width: 50%;
   display: inline-block;
 }
 
@@ -307,3 +307,29 @@ body {
 .timeLineBox .swiper-slide:last-child:after {
   right: -90px;
 }
+
+.marquee_line {
+  font-family: 'Gilroy-Regular';
+  float: left;
+  width: calc(100% - 110px);
+  padding: 15px 0;
+}
+
+marquee {
+  position: absolute;
+  margin-bottom: 200px;
+}
+
+/* .slide-container{
+  width: 100px;
+  height: 100px;
+  background: #000;
+  color: #F17422;
+
+}
+
+#wowslider-container1{
+  width: 20px;
+  height: 20px;
+  background: #000;
+  color: #F17422;} */
